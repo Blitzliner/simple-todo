@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minimal Todo</string>
+    <string name="share_target_label">Als Aufgabe speichern</string>
+
+    <!-- Allgemein -->
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="details">Details</string>
+    <string name="back">Zurück</string>
+    <string name="add">Hinzufügen</string>
+    <string name="search">Suche</string>
+    <string name="more_options">Weitere Optionen</string>
+    <string name="undo">Rückgängig</string>
+    <string name="favorite">Favorit</string>
+    <string name="pinned">Angeheftet</string>
+    <string name="overdue">Überfällig</string>
+    <string name="error_generic">Das hat leider nicht geklappt. Bitte versuche es erneut.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Aufgaben</string>
+    <string name="nav_today">Heute</string>
+    <string name="nav_favorites">Favoriten</string>
+    <string name="home_title">Meine Aufgaben</string>
+
+    <!-- Typen -->
+    <string name="type_todo">Aufgabe</string>
+    <string name="type_text">Text</string>
+    <string name="type_group">Gruppe</string>
+
+    <!-- Datum -->
+    <string name="date_today">Heute</string>
+    <string name="date_tomorrow">Morgen</string>
+    <string name="date_yesterday">Gestern</string>
+    <string name="due_none">Kein Datum</string>
+    <string name="due_pick">Datum wählen</string>
+    <string name="time_add">Uhrzeit hinzufügen</string>
+    <string name="time_remove">Uhrzeit entfernen</string>
+    <string name="time_label">Uhrzeit: %1$s</string>
+    <string name="time_title">Uhrzeit wählen</string>
+
+    <!-- Priorität -->
+    <string name="priority_none">Keine</string>
+    <string name="priority_low">Niedrig</string>
+    <string name="priority_medium">Mittel</string>
+    <string name="priority_high">Hoch</string>
+
+    <!-- Empty States -->
+    <string name="empty_home_title">Noch keine Aufgaben</string>
+    <string name="empty_group_title">Diese Gruppe ist leer</string>
+    <string name="empty_home_message">Erstelle deine erste Aufgabe mit +</string>
+    <string name="empty_all_done">Alles erledigt</string>
+    <string name="empty_all_done_message">Erledigte Aufgaben sind ausgeblendet.</string>
+    <string name="empty_favorites">Keine Favoriten</string>
+    <string name="empty_favorites_message">Markiere Einträge über langes Drücken als Favorit.</string>
+    <string name="empty_today">Heute gibt es nichts zu erledigen.</string>
+    <string name="section_overdue">Überfällig</string>
+    <string name="section_today">Heute</string>
+
+    <!-- Schnellerfassung -->
+    <string name="quick_add_title">Was möchtest du speichern?</string>
+    <string name="quick_add_in">Hinzufügen zu „%1$s“</string>
+    <string name="quick_add_placeholder">Eingeben und Enter drücken</string>
+
+    <!-- Kontextmenü -->
+    <string name="action_mark_done">Als erledigt markieren</string>
+    <string name="action_mark_done_short">Erledigen</string>
+    <string name="action_mark_open">Als offen markieren</string>
+    <string name="action_open_group">Gruppe öffnen</string>
+    <string name="action_add_inside">Element hinzufügen</string>
+    <string name="action_add_subtask">Unteraufgabe hinzufügen</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="action_move">Verschieben</string>
+    <string name="action_duplicate">Duplizieren</string>
+    <string name="action_favorite">Favorisieren</string>
+    <string name="action_unfavorite">Aus Favoriten entfernen</string>
+    <string name="action_pin">Anheften</string>
+    <string name="action_unpin">Nicht mehr anheften</string>
+    <string name="action_sort_children">Sortierung des Inhalts</string>
+    <string name="action_share">Teilen</string>
+    <string name="action_delete">Löschen</string>
+
+    <!-- Snackbars -->
+    <string name="snackbar_deleted">„%1$s“ gelöscht</string>
+    <string name="snackbar_duplicated">Dupliziert</string>
+    <string name="snackbar_move_rejected">Ein Element kann nicht in sich selbst oder seinen Inhalt verschoben werden.</string>
+    <string name="snackbar_all_subtasks_done">Alle Unteraufgaben erledigt. „%1$s“ auch erledigen?</string>
+
+    <!-- Löschen -->
+    <string name="delete_title">„%1$s“ löschen?</string>
+    <string name="delete_children_question">Auch alle enthaltenen Elemente löschen?</string>
+    <string name="delete_only_group">Nur Gruppe löschen</string>
+    <string name="delete_group_and_content">Gruppe und Inhalte löschen</string>
+    <string name="delete_only_item">Nur dieses Element löschen</string>
+    <string name="delete_item_and_content">Element und Inhalte löschen</string>
+
+    <!-- Verschieben -->
+    <string name="move_title">„%1$s“ verschieben</string>
+    <string name="move_up">Nach oben</string>
+    <string name="move_down">Nach unten</string>
+    <string name="move_into">Verschieben nach</string>
+    <string name="move_root">Oberste Ebene</string>
+    <string name="move_filter">Ziel suchen</string>
+    <string name="move_current">aktuell</string>
+
+    <!-- Sortierung -->
+    <string name="sort_title">Sortierung</string>
+    <string name="sort_manual">Manuell</string>
+    <string name="sort_alphabetical">Alphabetisch</string>
+    <string name="sort_open_first">Offene zuerst</string>
+    <string name="sort_completed_first">Erledigte zuerst</string>
+    <string name="sort_newest_first">Neueste zuerst</string>
+    <string name="sort_oldest_first">Älteste zuerst</string>
+    <string name="sort_manual_hint">Eigene Reihenfolge, änderbar über „Verschieben“</string>
+    <string name="hide_completed">Erledigte ausblenden</string>
+    <string name="hide_completed_hint">Bleiben über Suche und Favoriten auffindbar</string>
+
+    <!-- Editor -->
+    <string name="editor_title_todo">Aufgabe bearbeiten</string>
+    <string name="editor_title_text">Text bearbeiten</string>
+    <string name="editor_title_group">Gruppe bearbeiten</string>
+    <string name="editor_not_found">Dieser Eintrag existiert nicht mehr.</string>
+    <string name="editor_completed">Erledigt</string>
+    <string name="field_title">Titel</string>
+    <string name="field_title_optional">Titel (optional)</string>
+    <string name="field_note">Notiz</string>
+    <string name="field_text">Text</string>
+    <string name="field_name">Name</string>
+    <string name="field_priority">Priorität</string>
+    <string name="field_due">Fällig</string>
+    <string name="subtasks_title">Unteraufgaben</string>
+    <string name="subtask_add">Unteraufgabe hinzufügen</string>
+    <string name="group_editor_hint">Inhalte fügst du in der Liste über + oder langes Drücken hinzu.</string>
+    <string name="discard_title">Änderungen verwerfen?</string>
+    <string name="discard">Verwerfen</string>
+
+    <!-- Suche -->
+    <string name="search_placeholder">Suche…</string>
+    <string name="search_clear">Suche leeren</string>
+    <string name="search_hint">Durchsuche Titel und Inhalte</string>
+    <string name="search_no_results">Keine Treffer</string>
+
+    <!-- Einstellungen -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_appearance">Darstellung</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="settings_tasks">Aufgaben</string>
+    <string name="settings_default_sort">Standard-Sortierung</string>
+    <string name="settings_export">Export</string>
+    <string name="settings_export_format">Standardformat</string>
+    <string name="settings_data">Daten</string>
+    <string name="settings_export_action">Exportieren</string>
+    <string name="settings_export_hint">Als TXT, Markdown oder JSON-Backup speichern</string>
+    <string name="settings_import_action">Importieren</string>
+    <string name="settings_import_hint">JSON-Backup einlesen</string>
+    <string name="settings_about">Über</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_privacy">Datenschutz</string>
+    <string name="settings_privacy_short">Alle Daten bleiben auf deinem Gerät</string>
+    <string name="privacy_text">Minimal Todo speichert alle Einträge ausschließlich lokal auf deinem Gerät. Die App hat keine Internet-Berechtigung, verwendet kein Konto, keine Cloud, keine Werbung, kein Tracking und keine Analyse-Dienste. Daten verlassen das Gerät nur, wenn du sie selbst teilst oder exportierst.</string>
+    <string name="format_txt">Text (TXT)</string>
+    <string name="format_markdown">Markdown (MD)</string>
+    <string name="format_json">JSON-Backup</string>
+    <string name="format_json_hint">Vollständig – kann wieder importiert werden</string>
+    <string name="export_continue">Weiter</string>
+    <string name="export_done">Export gespeichert</string>
+    <string name="export_failed">Der Export konnte nicht gespeichert werden.</string>
+    <string name="import_title">Backup importieren?</string>
+    <string name="import_add">Daten hinzufügen</string>
+    <string name="import_add_hint">Vorhandene Einträge bleiben erhalten</string>
+    <string name="import_replace">Vorhandene Daten ersetzen</string>
+    <string name="import_replace_hint">Alle aktuellen Einträge werden gelöscht</string>
+    <string name="import_confirm">Importieren</string>
+    <string name="import_failed">Die Datei konnte nicht importiert werden.</string>
+    <plurals name="import_found">
+        <item quantity="one">Die Datei enthält %d Eintrag.</item>
+        <item quantity="other">Die Datei enthält %d Einträge.</item>
+    </plurals>
+    <plurals name="import_done">
+        <item quantity="one">%d Eintrag importiert</item>
+        <item quantity="other">%d Einträge importiert</item>
+    </plurals>
+
+    <!-- Share-In -->
+    <string name="share_in_title">Als Aufgabe speichern?</string>
+    <string name="share_in_title_text">Als Text speichern?</string>
+    <string name="share_in_as_text">Als Text</string>
+    <string name="share_in_as_todo">Als Aufgabe</string>
+    <string name="share_in_saved">Gespeichert</string>
+
+    <!-- Willkommen -->
+    <string name="welcome_title">Willkommen</string>
+    <string name="welcome_text">Speichere Aufgaben, Listen und Notizen an einem Ort.</string>
+    <string name="welcome_local">Alles bleibt auf deinem Gerät.</string>
+    <string name="welcome_start">Loslegen</string>
+
+    <!-- Spracheingabe -->
+    <string name="voice_input">Spracheingabe</string>
+    <string name="voice_add">Per Sprache hinzufügen</string>
+    <string name="voice_prompt">Sprich jetzt…</string>
+
+    <!-- Barrierefreiheit -->
+    <string name="a11y_actions">Aktionen anzeigen</string>
+    <string name="a11y_edit">Bearbeiten</string>
+    <string name="a11y_open_group">Gruppe öffnen</string>
+    <string name="a11y_toggle_group">Auf- oder zuklappen</string>
+    <string name="a11y_expand">Aufklappen</string>
+    <string name="a11y_collapse">Zuklappen</string>
+    <string name="a11y_done_checkbox">Erledigt: %1$s</string>
+    <string name="a11y_priority">Priorität %1$s</string>
+    <string name="a11y_active">Aktiv</string>
+    <plurals name="a11y_progress">
+        <item quantity="one">%1$d von %2$d erledigt</item>
+        <item quantity="other">%1$d von %2$d erledigt</item>
+    </plurals>
+</resources>
